@@ -12,7 +12,7 @@ const IncDcrApp = () => {
    };
 
    const dcrNum = () => {
-    if(num === 0)
+    if(num === 1)
     alert("Zero reached");
     else
     setNum(num-1);
