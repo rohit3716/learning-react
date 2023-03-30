@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM  from "react-dom";
+// import "./index.css";
+// import "./ClickMe/";
+// import ClickMeApp from "./ClickMe/ClickMeApp";
+// import "./ClickMe/ClickMe.css"
+// import SlotMachApp from "./SlotMachine/SlotMachApp";
+// import "./SlotMachine/SlotMach.css";
+// import CalcApp from "./CalcApp";
+// import GetTimeApp from "./GetTime/GetTImeApp";
+// import "./GetTime/GetTime.css"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+// import DigitalClockApp from "./Digital Clock/DigitalClockApp";
+// import "./Digital Clock/DigitalClock.css";
+
+// import EventsApp from "./Events/EventsApp";
+// import "./Events/Events.css";
+
+// import FormsApp from "./Forms/FormsApp";
+// import "./Forms/Forms.css";
+
+// import ToDoApp from "./ToDo Lists/ToDoApp";
+// import "./ToDo Lists/ToDo.css";
+  
+import IncDcrApp from "./IncDcr/IncDcrApp";
+ReactDOM.render(
+    <IncDcrApp/>,document.getElementById("root")    
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
